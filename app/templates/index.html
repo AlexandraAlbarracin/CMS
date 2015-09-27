@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+ <h4>Descripcion</h4>
+
+  <ul>{% for item in listas %}
+	<li>{{item}}</li>
+  </ul>
+  {% endfor %}
+{% endblock %}
+{% block footer %}
+
+{% endblock %}
